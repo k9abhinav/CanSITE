@@ -1,0 +1,91 @@
+<img src="/college back.jpg" id="img1">
+            <h1 id="heading">JOIN THE LEAGUE OF NEXT-GEN ENGINEERS</h1>
+            <nav>
+                <div id="nav-left">
+                    <img src="images.jpg">
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="hamburger"><i class="fa fa-bars"></i></label>
+                <ul class="nav-ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#facility">Facility</a></li>
+                    <li><a href="#test">Testimonial</a></li>
+                    <li><a href="#footer">Department</a></li>
+                    <li><a href="#box">Contact</a></li>
+                </ul>
+            </nav
+
+
+
+            nav{
+                color: black;
+                /* border: 2px solid red; */
+                display:flex ;
+                position: absolute;
+                top:0;
+               /* background-color: #2d3e4f; */
+               /* background-color: #f6f6f2; */
+               width: 100%;
+                align-items: center;
+                justify-content: space-around;
+                padding:10px;
+            }
+            #nav-left{
+                font-size: 16px;
+                /* border: 2px solid black; */
+                font-weight: 800;
+                display: flex;
+                align-items: center;
+            }
+            #nav-left h1{
+                font-weight: 500;
+                color:navy;
+            }
+            #nav-left img{
+                margin-right: 12px;
+                width: 80px;
+                border-radius: 82%;
+            }
+            nav ul{
+                border: 2px solid blue;
+                display: flex;
+                gap: 1em;
+            }
+            nav ul li{
+                margin: 0 5px;
+            }
+            nav ul li a{
+               text-decoration: none;
+               font-size: 20px;
+               font-weight: 500;
+               color: white;
+               letter-spacing: 1px;
+            }
+            nav .hamburger i {
+                margin-right: 16px;
+                position: relative;
+                z-index: 103;
+                font-size: 1.5rem;
+                cursor: pointer;
+                display: none; 
+              } 
+              .nav-ul li a {
+                position: relative;
+              }
+              
+              .nav-ul a::after {
+                content: "";
+                position: absolute;
+                background-color: #ff004f;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -3px;
+                transition: 0.2s;
+                transition-timing-function: ease-in-out;
+              }
+            
+              .nav-ul a:hover::after {
+                width: 100%;
+              }
+              
