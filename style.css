@@ -281,14 +281,14 @@ html, body {
   display:flex ;
  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding:10px;
   
 }
 
 #nav-left {
   font-size: 16px;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   font-weight: 800;
   display: flex;
   align-items: center;
@@ -310,13 +310,13 @@ html, body {
 }
 
 #nav-left img {
-  margin-right: 12px;
+  /* margin-right: 12px; */
     width: 80px;
     border-radius: 82%;
 }
 
 .nav-home ul {
-  margin-right: 10%;
+  /* margin-right: 10%; */
   display: flex;
   gap: 1em;
 }
@@ -500,6 +500,11 @@ html, body {
 #academy{
     display: flex;
     justify-content: space-around;
+}
+@media (max-width:425px){
+  #academy{
+    flex-direction: column;
+  }
 }
 .left{
     display: flex;

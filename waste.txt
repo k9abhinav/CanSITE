@@ -1,0 +1,92 @@
+#courses-container {
+    /* background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%); */
+background-color: #f6f6f2;
+
+  }
+  #courses-container h1{
+    padding: 12px;
+    text-align: center;
+    color: black;
+    /* background-color: #6daddb;
+    background-image: linear-gradient(315deg, #6daddb 0%, #313131 74%); */
+    background-color: #f2f2f2;
+  }
+  
+   .course-w {
+    width: 95%;
+    height: 40em;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    /* border: 2px solid rgb(4, 69, 4); */
+  } 
+  
+   .course-box {
+    max-width: 1062px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    gap: 4px;
+  }
+  .course-box-box {
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+    height: auto;
+  }
+  .course-box-box .img {
+    object-fit: cover;
+    width: 350px;
+    height: 280px;
+  }
+  .course-box-box:first-child {
+    margin-left: 0px;
+  }
+  .brief {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 2px 12px;
+    color: black;
+  }
+  .brief p {
+    height: 5em;
+    /* border:2px solid yellow; */
+  }
+  .read,
+  .read a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 12px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    font-size: 18px;
+    background: linear-gradient(to left bottom, #031a9a, #8853ff);
+    color: #f2f2f2;
+  }
+  .read:hover {
+    transform: scale(1.1);
+  }
+  .btn-toggle {
+    border: none;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to left bottom, #031a9a, #8853ff);
+  }
+  .btn-toggle i {
+    font-size: 36px;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+  }
+  .arrows {
+    top: -22px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* border: 2px solid red; */
+    align-items: center;
+    width: 8em;
+  } 
